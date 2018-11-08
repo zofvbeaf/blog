@@ -6,8 +6,9 @@
 title: ZOFVBEAF'S BLOG
 subtitle: Bazinga !
 description: database, distributed system, algorithm, programming, linux, c++, networking, machine learning, deep learning
+signature: 浮世梦中梦，布衣裁不裁，弹狭狂歌莫浪猜。埋，贤愚何用哉。青山在，月明归去来。
 author: zofvbeaf
-language: zh-Hans
+language: 
 timezone: Asia/Shanghai
 
 # URL
@@ -34,7 +35,7 @@ auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-render_drafts: false
+render_drafts: true
 post_asset_folder: false
 relative_link: false
 future: true
