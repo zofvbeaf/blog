@@ -83,7 +83,7 @@ deploy:
   type: git
   repo: https://github.com/zofvbeaf/zofvbeaf.github.io.git
   branch: master
-  message: 'update: \{\{ now("YYYY-MM-DD HH:mm:ss") }}' 
+  message: 'update: {{ now("YYYY-MM-DD HH:mm:ss") }}' 
 	name: zofvbeaf
 	email: zofvbeaf@gmail.com
 
