@@ -19,6 +19,8 @@ categories: paper reading
 + 需要确定何时生成及采用相应的优化动作。即需要动态学习和改变，以适应负载的改变。
 + 两个额外的限制：代码不能因为上层需求改变而需要重构；它不能依赖于仅支持某些编程环境的程序分析工具。
 
+<!-- more -->
+
 # Self-Driving 架构
 + 现存的数据库在修改表1 中的Actions时常常需要重启，并且速度也比较慢。自研一个新的DBMS架构能很好的嵌入self-driving组件，并且提供更细粒度的控制。使用多版本并发控制（MVCC）来使得 OLTP 事务不会阻塞 OLAP 查询。使用内存管理、lock-free数据结构和flexible layout使得HTAP工作负载可以快速执行(即 Peloton 的实现)。
 ![Self-Driving-Architecture](/images/Self-Driving-Architecture.jpg)

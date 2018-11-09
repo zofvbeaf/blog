@@ -15,6 +15,7 @@ mathjax: true
 + 只摘录关键知识点，不做详细笔记，仅为方便日后复习有个方向
 + 学习: 如果一个系统能够通过执行某个过程改进它的性能，这就是学习。 --- Herbert A. Simon
 
+
 统计学习
 ===========
 + 统计学习的特点，对象，目的，方法，研究
@@ -26,6 +27,9 @@ mathjax: true
 + 其它名词：**instance, feature vector, 联合概率分布**
 + 假设空间: $ \mathcal{F} = \\{ f\;|  \mathit{Y} = f(X) \\} $
 + 最终变成求 $\min\limits_{f\in\mathcal{F}}R_{emp}(f)$ 或 $min_{f\in\mathcal{F}}R_{srm}(f)$ 的问题
+
+
+<!-- more -->
 
 ## 统计学习三要素
 + 方法 = 模型 + 策略 + 算法
@@ -59,7 +63,7 @@ mathjax: true
 ### 正则化
 + $\min\limits_{f\in\mathcal{F}}R_{srm}(f)$
 + 正则化项: 一般是模型复杂度的单调递增函数，模型越复杂，正则化值越大
-> 如参数向量$w$的$L_1$范数$||w_1||$或$L_2$范数$\frac{1}{2}||w_1||^2$
+> 如参数向量$w$的$L_1$范数$\parallel w_1 \parallel$或$L_2$范数$\frac{1}{2}\parallel w_1 \parallel^2$
 + 模型越复杂, 先验概率越大
 
 ### 交叉验证
