@@ -6,7 +6,7 @@ tags:
   - book
 categories:
   - 统计学习方法
-date: 2016-11-09 10:51:47
+date: 2018-11-09 10:51:47
 mathjax: true
 ---
 
