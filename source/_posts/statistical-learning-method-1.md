@@ -75,18 +75,18 @@ mathjax: true
 
 ## 泛化能力
 + 即模型$\hat{f}$的预测能力, 用$R_{exp}(\hat{f})$来表示
-+ 泛化误差上界: $R(f) \le \hat{R}(f) + \epsilon(d, N, \delta)$
++ 泛化误差上界: $R(f) \le \hat{R}(f) + \varepsilon(d, N, \delta)$
 > $R(f)$为泛化误差
 > $\le$右边为泛化误差上界
 > $\hat{R}(f)$为训练误差
-> $\epsilon(d, N, \delta) = \sqrt{\frac{1}{2N}(\log d + \log \frac{1}{\delta})}$
+> $\varepsilon(d, N, \delta) = \sqrt{\frac{1}{2N}(\log d + \log \frac{1}{\delta})}$
 + 训练误差小的模型, 泛化误差也会小
 
 ## 生成模型与判别模型
 + 监督学习的方法可以分为: 生成方法(**generative approach**)和判别方法(**discriminative approach**)
 + 生成方法: 先学习$P(X,Y)$再求出$P(Y|X) = \frac{P(X,Y)}{P(X)}$
 > 如:朴素贝叶斯法和隐马尔可夫模型
-+ 判别方法: 直接学习$f(X)$或$P(X,Y)$
++ 判别方法: 直接学习$f(X)$或$P(Y|X)$
 > 如:$k$近邻法, 感知机, 决策树,  逻辑斯蒂回归模型, 最大熵模型, 支持向量机, 提升方法和条件随机场等
 > 存在隐变量时, 判别方法不能用
 
