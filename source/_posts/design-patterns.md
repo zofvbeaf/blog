@@ -36,6 +36,9 @@ categories: design pattern
 
 ![组合](https://design-patterns.readthedocs.io/zh_CN/latest/_images/uml_composition.jpg)
 
+
+<!-- more -->
+
 #### 关联（association）
 
 > 是一种拥有的关系,它使一个类知道另一个类的属性和方法。箭头指向被拥有者。
