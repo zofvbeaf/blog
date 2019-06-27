@@ -29,4 +29,4 @@ find -name "*.tbl" | xargs sed -i "s/|$//"
 
 ```
 
-
+<!-- more -->

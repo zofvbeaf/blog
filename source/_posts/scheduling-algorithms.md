@@ -28,9 +28,7 @@ Modeling and definition
 > *dynamic*: the priorities of unscheduled tasks are recomputed after each task scheduling step
 
 
-
-
-
+<!-- more -->
 
 List Scheduling Algorithm
 ===========================================================
